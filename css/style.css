@@ -63,7 +63,7 @@ body{
 	color: #242424;
 	width: 100%;
 	font-family: 'Manrope', arial, sans-serif;
-	background: #000;
+	background: #000000;
 }
 .container{
 	max-width: 1325px;
@@ -133,3 +133,43 @@ section{
 
 
 
+.main_ic__spotify{
+    margin-right: 17px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background:  url(../img/icons/spotify.svg) center no-repeat;
+    transition: 0.3s;
+}
+.main_ic__tangio{
+    margin-right: 17px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background:  url(../img/icons/tangio.svg) center no-repeat;
+    transition: 0.3s;
+}
+.main_ic__soundcloud{
+    margin-right: 17px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background:  url(../img/icons/soundcloud.svg) center no-repeat;
+    transition: 0.3s;
+}
+.main_ic__applepadcast{
+    margin-right: 17px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background:  url(../img/icons/applepadcast.svg) center no-repeat;
+    transition: 0.3s;
+}
+.main_ic__overcast{
+    margin-right: 17px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background:  url(../img/icons/overcast.svg) center no-repeat;
+    transition: 0.3s;
+}
