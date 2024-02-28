@@ -63,7 +63,7 @@ body{
 	color: #242424;
 	width: 100%;
 	font-family: 'Manrope', arial, sans-serif;
-	background: #000000;
+	background: #363F46;
 }
 .container{
 	max-width: 1325px;
@@ -130,7 +130,9 @@ section{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
+header{
+	background: #000000;
+}
 
 
 .main_ic__spotify{
@@ -172,4 +174,8 @@ section{
     border-radius: 50%;
     background:  url(../img/icons/overcast.svg) center no-repeat;
     transition: 0.3s;
+}
+.icon{
+	width: 112px;
+	height: 112px;
 }
