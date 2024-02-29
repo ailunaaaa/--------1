@@ -17,6 +17,7 @@ a{
 }
 li{
 	list-style: none;
+
 }
 ul li:last-child{
 	margin-bottom: 0;
@@ -130,10 +131,43 @@ section{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-header{
-	background: #000000;
+.header{
+	width: 1440px;
 }
+.head_in{
+	padding: 40px;
+}
+.logo{
+	width: 160px;
+	height: 33px;
 
+}
+.menu{
+	width: 403px;
+	height: 67px;
+}
+.menu li{
+	list-style: none;
+	width: 49px;
+	height: 27px;
+	color: #fff;
+}
+.main_img{
+	width: 650px;
+	height: 873px;
+}
+.main_imgs1{
+	width: 160px;
+	height: 104px;
+}
+.main_imgs2{
+	width: 191px;
+	height: 88px;
+}
+.icon{
+	width: 112px;
+	height: 112px;
+}
 
 .main_ic__spotify{
     margin-right: 17px;
@@ -175,7 +209,5 @@ header{
     background:  url(../img/icons/overcast.svg) center no-repeat;
     transition: 0.3s;
 }
-.icon{
-	width: 112px;
-	height: 112px;
-}
+
+  
