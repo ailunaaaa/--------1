@@ -63,8 +63,8 @@ body{
 	line-height: 19px;
 	color: #242424;
 	width: 100%;
-	font-family: 'Manrope', arial, sans-serif;
-	background: #363F46;
+	font-family: 'DM Sans', arial, sans-serif;
+	background: #191919;
 }
 .container{
 	max-width: 1325px;
@@ -72,6 +72,7 @@ body{
 	min-width: 320px;
 	margin: 0 auto;
 	padding: 0 15px;
+	
 }
 .dn{
 	display: none;
@@ -80,11 +81,15 @@ section{
 	padding: 100px 0;
 }
 .sec_tit{
-	font-weight: 800;
-	font-size: 42px;
+	font-weight: 260;
 	line-height: 57px;
 	text-align: center;
 	margin: 0 auto;
+	color: #fff;
+	width: 526px;
+	height: 176px;
+	margin-top: 300px;	
+	
 }
 .color{
 	color: #BE963F;
@@ -133,6 +138,7 @@ section{
 }
 .header{
 	width: 1440px;
+	m
 }
 .head_in{
 	padding: 40px;
@@ -140,7 +146,20 @@ section{
 .logo{
 	width: 160px;
 	height: 33px;
-
+	left: 0;
+	top: 0;
+	padding: 4px;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+a:visited{
+	color: #fff; 
+}
+a:hover{
+	color: #118DA8;
+	
 }
 .menu{
 	width: 403px;
@@ -155,20 +174,31 @@ section{
 .main_img{
 	width: 650px;
 	height: 873px;
+	border-radius: 12px;
+	border: 1px solid;
+	
 }
-.main_imgs1{
+.main_imgs{
 	width: 160px;
 	height: 104px;
 }
-.main_imgs2{
-	width: 191px;
-	height: 88px;
+.txt{
+	margin-top: 45px;
+	color: #fff;
+}
+.main_right .sec_tit{
+	font-size: 70px;
+	width: 526px;
+	height: 176px;
 }
 .icon{
 	width: 112px;
 	height: 112px;
 }
-
+.main_icons{
+	width: 245px;
+	margin-right: 17px;
+}
 .main_ic__spotify{
     margin-right: 17px;
     width: 32px;
@@ -208,6 +238,9 @@ section{
     border-radius: 50%;
     background:  url(../img/icons/overcast.svg) center no-repeat;
     transition: 0.3s;
+}
+.info{
+	
 }
 
   
